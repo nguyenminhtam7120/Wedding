@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;0,900;1,300&family=Updock&display=swap');
+
+/* Smooth Scroll Bar Start*/
+html {scroll-behavior: smooth;}
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8c8c8c;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8c8c8c;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+/* Smooth Scroll Bar Start*/
+/* -------------------------- */
+/* Reset CSS End */
+
+.empty-box {
+    height: 100vh;
+}
+
+p,li {
+    font-size: 28px;
+}
+
+
+.header {
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Updock", cursive;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    padding: 23% 0;
+}
+
+.header-text h2 {
+    margin-bottom: 0;
+    font-size: 320%;
+    text-shadow: 3px 3px 9px #707070;
+}
+
+@media (min-width: 1199px) {
+    .header-text h2 {
+        font-size: 100px;
+    }
+}
+
+.col-6 {
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.img-box {
+    border-radius: 15px;
+    border: 1px solid #ffb366;
+    margin-bottom: 20px;
+}
+
+.box-grey {
+    border: 1px solid #707070 !important;
+}
+
+.box-footer {
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+}
+
+.spe-img img {
+    border: none;
+    box-shadow: none;
+    width: 50px;
+}
